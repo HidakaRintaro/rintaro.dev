@@ -1,0 +1,37 @@
+{
+  "name": "rintaro.dev",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "biome lint .",
+    "fmt": "biome format .",
+    "check": "biome check .",
+    "lint:fix": "biome lint --write .",
+    "fmt:fix": "biome format --write .",
+    "check:fix": "biome check --write ."
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react": "4.3.4",
+    "typescript": "5.7.2",
+    "vite": "6.2.0"
+  },
+  "engines": {
+    "node": "22.14.0",
+    "npm": "11.1.0"
+  },
+  "volta": {
+    "node": "22.14.0",
+    "npm": "11.1.0"
+  }
+}
