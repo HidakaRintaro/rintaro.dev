@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
       "@shadcn-ui": path.resolve(__dirname, "./src/lib/shadcn-ui"),
+      "@": path.resolve(__dirname, "./src"),
     },
   },
 })
