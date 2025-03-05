@@ -25,9 +25,8 @@
     /* shadcn/ui */
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"],
+      "@shadcn-ui/*": ["./src/lib/shadcn-ui/*"]
     }
   },
   "include": ["src"]
